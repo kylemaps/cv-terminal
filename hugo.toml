@@ -1,0 +1,158 @@
+BaseURL = "https://terminal-cv.netlify.app"
+theme = "terminalCV"
+title = "terminalCV"
+
+[params]
+description = "4s3ti cv terminal format"
+prompt = "newuser@terminalcv"
+# promptColor = "grey"
+# promptSimbols = ":~$"
+# promptSimbolsColor = "grey"
+# startxLocation = "https://example.com"
+# hideSocialName = true
+# exitLocation = 'about:blank'
+# hidesource = true
+greeting = """
+Welcome to my online resume
+
+
+Type 'help' for a list of available commands
+"""
+
+[params.whois]
+name = "Kyle Andrei Mapue"
+profession = "DevOps Engineer"
+location = "Manila"
+email = "kyle@gmail.com"
+homelink = "mapuekyle.com"
+description = """
+This cv will never justify the amount of creativity I possess.
+"""
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kylemaps"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kyle-mapue-a06938212/"
+
+[[params.social]]
+name = "basic cv"
+url = "https://shorturl.at/ixyEX"
+
+[[params.workexp]]
+jobTitle = "DevOps Engineer"
+color = "red"
+company = "Globe Telecom"
+location = "Makati, Metro Manila"
+date = "January 2023 - Present"
+description = ""
+
+[[params.workexp]]
+jobTitle = ""
+color = "purple"
+company = "-"
+location = "somewhere elese"
+date = "July 2000  - July 2010"
+description = "Some description about this purple job"
+
+[[params.workexp]]
+jobTitle = "Job with default color title"
+company = "-"
+location = "anywhere"
+date = "July 2008 - 2010"
+description = "Description about this default color job"
+
+[[params.education]]
+courseName = "University of Santo Tomas, BS IT"
+color = "red"
+date = "August 2018 - May 2022"
+description = "Consistent Dean's Lister, Cum Laude"
+
+
+[[params.skills]]
+name = "Skill 1"
+percentage = 90
+Description = "you can add a description"
+
+[[params.skills]]
+name = "Skill 2"
+percentage = 30
+#description = "or you can leave it comented"
+
+[[params.skills]]
+name = "Skill 3"
+color = "blue"
+percentage = 50
+description = "Skill names can have colors too"
+
+[[params.softskills]]
+name = "Leadership"
+color = "yellow"
+percentage = 99.9
+#description = ""
+
+[[params.softskills]]
+name = "SoftSkill 2"
+#color = ""
+percentage = 90
+description = "Description"
+
+[[params.languages]]
+name = "English"
+color = "Blue"
+percentage = "Fluent"
+#description = ""
+
+[[params.languages]]
+name = "Gibberish"
+percentage = 100
+description = "pasghettipigglywiggly"
+
+[[params.projects]]
+title = "A garden inside the internt"
+color = "red"
+date = "since 2023"
+link = "https://mapuekyle.com"
+description = "General overview of me"
+
+# [[params.projects]]
+# title = "Project Blue"
+# color = "blue"
+# date = "since 2016"
+# link = "https://example.com/blue"
+#description = "nothing to describe"
+
+# [[params.projects]]
+# title = "Project Default"
+# date = "Since 2017"
+# link = "https://example.com/default"
+#description = "not there either"
+
+[[params.certifications]]
+certName = "Example Cert"
+company = "Example Certifying Company"
+date = "Date of Completion"
+#description = "Lorem Ipsum"
+
+[misc]
+#commandName = "newcommand"
+# title = "This Section can have a different command name"
+# titleColor = "teal"
+# content = """
+# Here the title and the content can have different colors
+# The content can be multi
+
+# line
+
+# And spaces       will be respected as well
+# This section will have the default command: misc
+# but you can name it something else with the property
+# commandName: <String>
+# Give it a shot and try and uncomment the line 
+# commandName: newcommand
+# now instead of misc you can execute the newcommand for this section
+# Auto completion will know it too! :D
+# """
+# contentColor = "orange"
