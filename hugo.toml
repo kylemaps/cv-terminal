@@ -4,7 +4,7 @@ title = "terminalCV"
 
 [params]
 description = "4s3ti cv terminal format"
-prompt = "newuser@terminalcv"
+prompt = "user@terminalcv"
 # promptColor = "grey"
 # promptSimbols = ":~$"
 # promptSimbolsColor = "grey"
@@ -72,42 +72,43 @@ description = "Consistent Dean's Lister, Cum Laude"
 
 
 [[params.skills]]
-name = "Skill 1"
+name = "Basic knowledge of Network Security and IT Infrastructure"
 percentage = 90
-Description = "you can add a description"
+#Description = "you can add a description"
 
 [[params.skills]]
-name = "Skill 2"
-percentage = 30
+name = "Cloud Azure, Google Cloud Platform, AWS Knowledge"
+percentage = 80
 #description = "or you can leave it comented"
 
 [[params.skills]]
 name = "Skill 3"
 color = "blue"
 percentage = 50
-description = "Skill names can have colors too"
+#description = "Skill names can have colors too"
 
-[[params.softskills]]
-name = "Leadership"
-color = "yellow"
-percentage = 99.9
+# [[params.softskills]]
+# name = "Leadership"
+# color = "yellow"
+# percentage = 99.9
 #description = ""
 
 [[params.softskills]]
-name = "SoftSkill 2"
-#color = ""
-percentage = 90
-description = "Description"
+name = "Exceptional listener and communicator with a strong command of the English language"
+color = "green"
+percentage = 100
+description = "I see "
 
 [[params.languages]]
 name = "English"
 color = "Blue"
-percentage = "Fluent"
-#description = ""
+percentage = 100
+description = "Bilingual"
 
 [[params.languages]]
 name = "Gibberish"
-percentage = 100
+color = "gray"
+percentage = 80
 description = "pasghettipigglywiggly"
 
 [[params.projects]]
@@ -131,10 +132,23 @@ description = "General overview of me"
 #description = "not there either"
 
 [[params.certifications]]
-certName = "Example Cert"
-company = "Example Certifying Company"
-date = "Date of Completion"
-#description = "Lorem Ipsum"
+certName = "AWS Cloud Practicioner"
+company = "AWS"
+date = "2021"
+description = "https://www.credly.com/badges/da13348d-6c74-4133-87e9-58e2a9cecdd9/linked_in_profile"
+
+[[params.certifications]]
+certName = "Microsoft Certified (SC-900): Security, Compliance, and Identity Fundamentals"
+company = "Microsoft"
+date = "2022"
+description = "https://www.credly.com/badges/096ae86f-362d-4b99-a647-0d13cb44d3d4/linked_in_profile"
+
+[[params.certifications]]
+certName = "Microsoft Certified (AZ-900): Azure Fundamentals"
+company = "Microsoft"
+date = "2022"
+description = "https://www.credly.com/badges/d211315d-66c2-478f-837d-cb64dd877ba1/linked_in_profile"
+
 
 [misc]
 #commandName = "newcommand"
