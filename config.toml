@@ -1,5 +1,5 @@
 BaseURL = "https://terminal-cv.netlify.app"
-theme = "terminalCV"
+theme = "TerminalCV"
 title = "terminalCV"
 
 [params]

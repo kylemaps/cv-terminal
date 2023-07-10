@@ -93,11 +93,35 @@ jQuery(document).ready(function($) {
         term.echo("");
         
             
-                term.echo("[[b;grey;]Example Cert]");
-	    	term.echo("Date of Completion");
+                term.echo("[[b;grey;]AWS Cloud Practicioner]");
+	    	term.echo("2021");
                 
-                    term.echo("Example Certifying Company");
+                    term.echo("AWS");
                 
+                
+                    term.echo("https:\/\/www.credly.com\/badges\/da13348d-6c74-4133-87e9-58e2a9cecdd9\/linked_in_profile");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;grey;]Microsoft Certified (SC-900): Security, Compliance, and Identity Fundamentals]");
+	    	term.echo("2022");
+                
+                    term.echo("Microsoft");
+                
+                
+                    term.echo("https:\/\/www.credly.com\/badges\/096ae86f-362d-4b99-a647-0d13cb44d3d4\/linked_in_profile");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;grey;]Microsoft Certified (AZ-900): Azure Fundamentals]");
+	    	term.echo("2022");
+                
+                    term.echo("Microsoft");
+                
+                
+                    term.echo("https:\/\/www.credly.com\/badges\/d211315d-66c2-478f-837d-cb64dd877ba1\/linked_in_profile");
                 
                 term.echo("-------------------- ");
                 term.echo("");
@@ -132,18 +156,18 @@ jQuery(document).ready(function($) {
                 var bar_length = Math.round( 90  / 10);
                 var bar_filled = Array(bar_length + 1).join("&#9611;");
                 var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Skill 1:]\n" +
+                term.echo("[[b;grey;]Basic knowledge of Network Security and IT Infrastructure:]\n" +
                         bar_filled + bar_blank + 
                          90  +"%");
                 
                 term.echo ("")
             
-                var bar_length = Math.round( 30  / 10);
+                var bar_length = Math.round( 80  / 10);
                 var bar_filled = Array(bar_length + 1).join("&#9611;");
                 var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Skill 2:]\n" +
+                term.echo("[[b;grey;]Cloud Azure, Google Cloud Platform, AWS Knowledge:]\n" +
                         bar_filled + bar_blank + 
-                         30  +"%");
+                         80  +"%");
                 
                 term.echo ("")
             
@@ -154,8 +178,6 @@ jQuery(document).ready(function($) {
                         bar_filled + bar_blank + 
                          50  +"%");
                 
-                    term.echo("Skill names can have colors too");
-                
                 term.echo ("")
             
         
@@ -164,23 +186,14 @@ jQuery(document).ready(function($) {
         term.echo("");
         
             
-                var bar_length = Math.round( 99.9  / 10);
+                var bar_length = Math.round( 100  / 10);
                 var bar_filled = Array(bar_length + 1).join("&#9611;");
                 var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;yellow;]Leadership:]\n" +
+                term.echo("[[b;green;]Exceptional listener and communicator with a strong command of the English language:]\n" +
                        bar_filled + bar_blank +
-                        99.9  +"%");
+                        100  +"%");
                 
-                term.echo ("")
-            
-                var bar_length = Math.round( 90  / 10);
-                var bar_filled = Array(bar_length + 1).join("&#9611;");
-                var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]SoftSkill 2:]\n" +
-                       bar_filled + bar_blank +
-                        90  +"%");
-                
-                    term.echo("Description");
+                    term.echo("I see ");
                 
                 term.echo ("")
             
@@ -191,21 +204,23 @@ jQuery(document).ready(function($) {
         term.echo("");
         
             
-                var bar_length = Math.round("Fluent" / 10);
+                var bar_length = Math.round( 100  / 10);
                 var bar_filled = Array(bar_length + 1).join("&#9611;");
                 var bar_blank= Array(11 - bar_length).join("&#9617;");
                 term.echo("[[b;Blue;]English:]\n" +
                         "" + bar_filled + bar_blank + 
-                        " " + "Fluent" +"%");
+                        " " +  100  +"%");
+                
+                    term.echo("Bilingual");
                 
                 term.echo("")
             
-                var bar_length = Math.round( 100  / 10);
+                var bar_length = Math.round( 80  / 10);
                 var bar_filled = Array(bar_length + 1).join("&#9611;");
                 var bar_blank= Array(11 - bar_length).join("&#9617;");
-                term.echo("[[b;grey;]Gibberish:]\n" +
+                term.echo("[[b;gray;]Gibberish:]\n" +
                         "" + bar_filled + bar_blank + 
-                        " " +  100  +"%");
+                        " " +  80  +"%");
                 
                     term.echo("pasghettipigglywiggly");
                 
@@ -354,7 +369,7 @@ jQuery(document).ready(function($) {
                           "please type 'help' for a list of available commands\n");
         }
     }, {
-        prompt: '[[;grey;]newuser@terminalcv][[;grey;]:~$]' + " ",
+        prompt: '[[;grey;]user@terminalcv][[;grey;]:~$]' + " ",
         greetings: "[[b;white;]Welcome to my online resume\r\n\r\n\r\nType \u0027help\u0027 for a list of available commands\r\n]",
         keydown: function(e, term) {
             if (animation) {
